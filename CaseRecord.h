@@ -164,13 +164,13 @@ int CaseRecord::search(string key)
   }
   if (!flag)
 	{
-		std::cout << "\nRecord not found.\n";
+		std::cout << "\n\t\tRecord not found.\n";
 		return -1;
 	}
   else
   {
-    std::cout << "\nRecord found:" << endl
-  			  << "\tLawyer:\t\t" << lawyer << endl
+    std::cout << "\nRecord found at position:\t" << ipos << endl
+  			  << "\n\tLawyer:\t\t" << lawyer << endl
   			  << "\tTitle:\t\t" << title << endl
   			  << "\tCase Code:\t" << code << endl
   				<< "\tCase Type:\t" << type << endl

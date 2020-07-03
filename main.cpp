@@ -43,6 +43,7 @@ int main()
 				caseRecord.modify(key);
 				break;
 			case 4:
+				std::cout << "\t\t\t\tThank You\n\n\n";
 				return 0;
 			default:
 				std::cout << "\n\nWrong choice\n";
